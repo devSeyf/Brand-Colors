@@ -68,13 +68,16 @@ body {
 }
 .contnet {
   flex: 1;
-
+  overflow:  auto;
+  background-color:  #f8f8f8;
 
 
   .header{
   height: 60px;
   border-bottom: solid 1px #ccc;
   display: flex;
+  position: sticky;
+    top: 0;
 
   .serach {
 
@@ -102,6 +105,26 @@ input {
   font-size: 16px;
   padding: 0 20px 0 60px;
 }
+  }
+}
+
+.brands {
+  padding: 25px;
+  .brand{
+    border: 1px solid #ddd ;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    h5{
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    &-colors {
+      display: flex;
+      span {
+          background-color: var(--bgColor);
+      }
+    }
   }
 }
 }
