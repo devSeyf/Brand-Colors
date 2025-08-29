@@ -3,6 +3,7 @@ import Search from './Search';
 import BrandsData from '../brands.json';
 import Brand from './Brand';
 
+
 const Content = () => {
     
 const barndsArray = []
